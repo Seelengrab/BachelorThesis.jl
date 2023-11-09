@@ -1,0 +1,217 @@
+@book{guntheroth2016optimized,
+  title={Optimized C++: proven techniques for heightened performance},
+  author={Guntheroth, Kurt},
+  year={2016},
+  publisher={"O'Reilly Media, Inc."}
+}
+@book{meyers2014effective,
+  title={Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14},
+  author={Meyers, Scott},
+  isbn={9781491908433},
+  url={https://books.google.at/books?id=rjhIBQAAQBAJ},
+  year={2014},
+  publisher={O'Reilly Media}
+}
+@misc{initialrelease,
+  title={Why We Created Julia},
+  url={https://julialang.org/blog/2012/02/why-we-created-julia/},
+  author={Bezanson, J. and Karpinski, S. and Shah, V. B. and Edelman, A.},
+  year={2012},
+  urldate={2023-02-14}
+}
+@misc{firstmajor,
+  title={Announcing the release of Julia 1.0},
+  url={https://julialang.org/blog/2018/08/one-point-zero/},
+  author={JuliaLang-Developers},
+  year={2018},
+  urldate={2022-09-11}
+}
+@misc{profilejl,
+  title={Profile.jl},
+  url={https://docs.julialang.org/en/v1/stdlib/Profile/},
+  author={JuliaLang-Developers},
+  urldate={2023-10-17}
+}
+@misc{jlslack,
+  title={JuliaLang Slack},
+  url={https://julialang.org/slack/}
+}
+@misc{jlzulip,
+  title={JuliaLang Zulip},
+  url={https://julialang.zulipchat.com/}
+}
+@misc{jldiscourse,
+  title={JuliaLang Discourse},
+  url={https://discourse.julialang.org/}
+}
+@book{bezansonthesis,
+  title={Abstraction in Technical Computing},
+  author={Bezanson, Jeffrey Werner},
+  publisher={Massachusetts Institute of Technology, Department of Electrical Engineering and Computer Science},
+  year={2015},
+  url={http://dspace.mit.edu/handle/1721.1/7582}
+}
+@article{vitektypestability,
+  author = {Pelenitsyn, Artem and Belyakova, Julia and Chung, Benjamin and Tate, Ross and Vitek, Jan},
+  title = {Type Stability in Julia: Avoiding Performance Pathologies in JIT Compilation},
+  year = {2021},
+  issue_date = {October 2021},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {5},
+  number = {OOPSLA},
+  url = {https://doi.org/10.1145/3485527},
+  doi = {10.1145/3485527},
+  abstract = {As a scientific programming language, Julia strives for performance but also provides high-level productivity features. To avoid performance pathologies, Julia users are expected to adhere to a coding discipline that enables so-called type stability. Informally, a function is type stable if the type of the output depends only on the types of the inputs, not their values. This paper provides a formal definition of type stability as well as a stronger property of type groundedness, shows that groundedness enables compiler optimizations, and proves the compiler correct. We also perform a corpus analysis to uncover how these type-related properties manifest in practice.},
+  journal = {Proc. ACM Program. Lang.},
+  month = {oct},
+  articleno = {150},
+  numpages = {26},
+  keywords = {type inference, compilation, method dispatch, dynamic languages}
+}
+@misc{v8,
+  title={The V8 JavaScript Engine},
+  url={https://v8.dev/},
+  urldate={2023-10-28}
+}
+@misc{egorov,
+  title={Collection of performance optimization articles in V8},
+  url={https://mrale.ph/v8/resources.html#talks},
+  author={Egorov, Vyacheslav},
+  urldate={2022-05-14}
+}
+@misc{v8monomorphism,
+  title={What's up with Monomorphism?},
+  url={https://mrale.ph/blog/2015/01/11/whats-up-with-monomorphism.html},
+  author={Egorov, Vyacheslav},
+  year={2015},
+  urldate={2022-02-20}
+}
+@misc{jlinterpreter,
+  title={JuliaInterpreter.jl AST Documentation},
+  url={https://juliadebug.github.io/JuliaInterpreter.jl/stable/ast/},
+  author={JuliaInterpreter.jl-Contributors},
+  urldate={2023-10-28}
+}
+@misc{astdevdocs,
+  title={JuliaLang Developer Documentation ASTs},
+  url={https://docs.julialang.org/en/v1/devdocs/ast/},
+  author={JuliaLang-Developers},
+  urldate={2023-10-28} 
+}
+@misc{jetdoc,
+  title={JET.jl JetAnalyzer Documentation},
+  url={https://aviatesk.github.io/JET.jl/dev/jetanalysis/#JET.JETAnalyzer},
+  author={Kadowaki, Shuhei},
+  urldate={2023-09-22}
+}
+@misc{cse4580,
+  title={Programming Parallel Computers},
+  author={Suomela, Jukka and Contributors},
+  url={https://ppc.cs.aalto.fi},
+  urldate={2023-01-12}
+}
+@misc{agneroptimizing,
+  title={Optimizing software in C++},
+  author={Fog, Agner},
+  url={https://www.agner.org/optimize/optimizing_cpp.pdf},
+  year={2023},
+  urldate={2023-10-23}
+}
+@misc{fastmath,
+  title={Beware of fast-math},
+  author={Byrne, Simon},
+  url={https://simonbyrne.github.io/notes/fastmath/},
+  year={2021},
+  urldate={2022-02-11}
+}
+@misc{arralign,
+  title={Julia Array alignment},
+  author={JuliaLang-Contributors},
+  url={https://github.com/JuliaLang/julia/blob/96e5b62e95f79a64ab296001dd8cf748c63af806/src/julia_internal.h#L459-L462},
+  urldate={2023-10-23}
+}
+@misc{valgrind,
+  title={Valgrind},
+  author={Valgrind-Developers},
+  url={https://valgrind.org},
+  urldate={2023-10-23}
+}
+@misc{pprof,
+  title={Pprof},
+  author={Pprof-Developers},
+  url={https://github.com/google/pprof},
+  urldate={2023-10-23}
+}
+@misc{godbolt,
+  title={Compiler Explorer},
+  author={Godbolt, Matt and Contributors},
+  url={https://godbolt.org},
+  urldate={2023-10-30}
+}
+@misc{vtune,
+  title={Intel® VTune™ Profiler},
+  author={Intel},
+  url={https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html},
+  urldate={2023-10-30}
+}
+@misc{llvm-mca,
+  title={LLVM Machine Code Analyzer},
+  author={LLVM-Contributors},
+  url={https://www.llvm.org/docs/CommandGuide/llvm-mca.html},
+  urldate={2023-10-30}
+}
+@INPROCEEDINGS{likwid,
+author = {G. Hager and G. Wellein and J. Treibig},
+booktitle = {2012 41st International Conference on Parallel Processing Workshops},
+title = {LIKWID: A Lightweight Performance-Oriented Tool Suite for x86 Multicore Environments},
+year = {2010},
+volume = {},
+issn = {1530-2016},
+pages = {207-216},
+abstract = {Exploiting the performance of today&#x27;s processors requires intimate knowledge of the microarchitecture as well as an awareness of the ever-growing complexity in thread and cache topology. LIKWID is a set of command-line utilities that addresses four key problems: Probing the thread and cache topology of a shared-memory node, enforcing thread-core affinity on a program, measuring performance counter metrics, and toggling hardware prefetchers. An API for using the performance counting features from user code is also included. We clearly state the differences to the widely used PAPI interface. To demonstrate the capabilities of the tool set we show the influence of thread pinning on performance using the well-known OpenMP STREAM triad benchmark, and use the affinity and hardware counter tools to study the performance of a stencil code specifically optimized to utilize shared caches on multicore chips.},
+keywords = {},
+doi = {10.1109/ICPPW.2010.38},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICPPW.2010.38},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {sep}
+}
+@INPROCEEDINGS{bruening,
+  author={Bruening, Derek and Zhao, Qin},
+  booktitle={International Symposium on Code Generation and Optimization (CGO 2011)}, 
+  title={Practical memory checking with Dr. Memory}, 
+  year={2011},
+  volume={},
+  number={},
+  pages={213-223},
+  doi={10.1109/CGO.2011.5764689}}
+@techreport{Zorn:CSD-88-404,
+    Author = {Zorn, Benjamin and Hilfinger, Paul N.},
+    Title = {A Memory Allocation Profiler for C and Lisp Programs},
+    Institution = {EECS Department, University of California, Berkeley},
+    Year = {1988},
+    Month = {Feb},
+    URL = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/1988/5382.html},
+    Number = {UCB/CSD-88-404},
+    Abstract = {This paper describes mprof, a tool used to study the memory allocation behavior of programs. mprof records the amount of memory each function allocates, breaks down allocation information by type and size, and displays a program's dynamic call graph so that functions indirectly responsible for memory allocation are easy to identify. mprof is a two-phase tool. The monitor phase is linked into executing programs and records information each time memory is allocated. The display phase reduces the data generated by the monitor and displays the information to the user in several tables. mprof has been implemented for C and Kyoto Common Lisp. Measurements of these implementations are presented.}
+}
+@book{cannon2005localized,
+  title={Localized type inference of atomic types in python},
+  author={Cannon, Brett},
+  year={2005},
+  publisher={California Polytechnic State University}
+}
+@techreport{chang2007efficient,
+  title={Efficient just-in-time execution of dynamically typed languages via code specialization using precise runtime type inference},
+  author={Chang, Mason and Bebenita, Michael and Yermolovich, Alexander and Gal, Andreas and Franz, Michael},
+  year={2007},
+  institution={Citeseer}
+}
+@inproceedings{holzle1994optimizing,
+  title={Optimizing dynamically-dispatched calls with run-time type feedback},
+  author={H{\"o}lzle, Urs and Ungar, David},
+  booktitle={Proceedings of the ACM SIGPLAN 1994 conference on Programming language design and implementation},
+  pages={326--336},
+  year={1994}
+}

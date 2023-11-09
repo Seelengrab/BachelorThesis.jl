@@ -1,0 +1,9 @@
+build
+*.zip
+**.gz
+src/figs
+src/*.s
+src/*.dmp
+src/*.so
+data/
+figs/
